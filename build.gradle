@@ -40,11 +40,3 @@ tasks.named('test') {
 	useJUnitPlatform()
 }
 
-task run(type: JavaExec) {
-    mainClass = 'com.next.auth.AuthApplication'
-    classpath = sourceSets.main.runtimeClasspath
-    jvmArgs = ['-Dspring.devtools.restart.enabled=true']
-	   javaLauncher = javaToolchains.launcherFor {
-        languageVersion = JavaLanguageVersion.of(17) 
-    }
-}

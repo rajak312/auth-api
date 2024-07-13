@@ -1,5 +1,0 @@
-{
-  "watch": ["src/main/java", "src/main/resources"],
-  "ext": "java,yml,properties",
-  "exec": "code . && ./gradlew run"
-}
