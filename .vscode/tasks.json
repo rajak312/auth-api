@@ -4,12 +4,12 @@
     {
       "label": "Run Spring Boot",
       "type": "shell",
-      "command": "./gradlew runApp",
+      "command": "nodemon",
+      "problemMatcher": [],
       "group": {
         "kind": "build",
         "isDefault": true
       },
-      "problemMatcher": [],
       "isBackground": true,
       "auto": true
     }

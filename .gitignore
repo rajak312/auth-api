@@ -17,6 +17,10 @@
 # Ignore Node modules and pnpm lockfile
 /node_modules/
 /pnpm-lock.yaml
+/pnpmfile.js
+/pnpmfile.cjs
+/.pnpmfile.cjs
+/.pnpmfile.js
 /package-lock.json
 /yarn.lock
 
