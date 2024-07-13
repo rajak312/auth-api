@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Spring Boot",
+      "type": "shell",
+      "command": "./gradlew runApp",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "isBackground": true,
+      "auto": true
+    }
+  ]
+}
