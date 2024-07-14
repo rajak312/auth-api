@@ -1,4 +1,4 @@
-package com.next.auth.model;
+package com.next.auth.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -18,12 +18,14 @@ public class User {
 
     private String username;
 
-    private String password;
+    private String keycloakId;
 
     private String email;
 
-    private String role;
+    private String password;
 
-    private boolean active;
+    private String firstName;
+
+    private String lastName;
 
 }

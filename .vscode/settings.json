@@ -1,3 +1,5 @@
 {
-  "java.configuration.updateBuildConfiguration": "interactive"
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "cSpell.userWords": ["keycloak"],
+  "cSpell.words": ["Configurer"]
 }

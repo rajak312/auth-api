@@ -1,15 +1,18 @@
 spring:
   application:
     name: auth
+
   devtools:
     restart:
       enabled: true
     livereload:
       enabled: true
+
   datasource:
     url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
     password: postgres
+
   jpa:
     hibernate:
       ddl-auto: update
@@ -17,7 +20,16 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
 
+  security:
+    user:
+      name: admin
+      password: P@ssw0rd
+
 logging:
   file:
     name: ""
     path: ""
+
+springdoc:
+  swagger-ui:
+    path: /docs
