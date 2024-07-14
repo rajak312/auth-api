@@ -3,9 +3,19 @@ spring:
     name: auth
   devtools:
     restart:
-      enabled: true # Enable automatic restarts
+      enabled: true
     livereload:
       enabled: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
 
 logging:
   file:
