@@ -23,7 +23,7 @@ spring:
   security:
     user:
       name: admin
-      password: P@ssw0rd
+      password: admin
 
 logging:
   file:
